@@ -1,0 +1,77 @@
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\obj\Debug\Project.DataLayer.csprojResolveAssemblyReference.cache
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\Project.DataLayer.dll.config
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\Project.DataLayer.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\Project.DataLayer.pdb
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\EntityFramework.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\Project.Model.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.12.0.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\EnvDTE.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\EnvDTE80.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\stdole.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\Project.Model.pdb
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\EntityFramework.xml
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.xml
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.12.0.xml
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\obj\Debug\Project.DataLayer.dll
+D:\Mehtab\FYP\Samples-MVC\Project.DataLayer\obj\Debug\Project.DataLayer.pdb
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Project.DataLayer.dll.config
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Project.DataLayer.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Project.DataLayer.pdb
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Project.Model.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.12.0.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\EnvDTE.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\EnvDTE80.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\stdole.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Project.Model.pdb
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.12.0.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+E:\Ayesha\Samples-MVC\Project.DataLayer\obj\Debug\Project.DataLayer.csprojResolveAssemblyReference.cache
+E:\Ayesha\Samples-MVC\Project.DataLayer\obj\Debug\Project.DataLayer.dll
+E:\Ayesha\Samples-MVC\Project.DataLayer\obj\Debug\Project.DataLayer.pdb
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Project.DataLayer.dll.config
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Project.DataLayer.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Project.DataLayer.pdb
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Project.Model.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.12.0.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\EnvDTE.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\EnvDTE80.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\stdole.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Project.Model.pdb
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.xml
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.xml
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\bin\Debug\Microsoft.AspNet.Scaffolding.12.0.xml
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\obj\Debug\Project.DataLayer.csprojResolveAssemblyReference.cache
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\obj\Debug\Project.DataLayer.dll
+D:\updatd iqqu proj\Samples-MVC\Project.DataLayer\obj\Debug\Project.DataLayer.pdb

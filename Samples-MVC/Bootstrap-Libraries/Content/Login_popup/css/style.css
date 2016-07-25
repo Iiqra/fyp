@@ -1,0 +1,132 @@
+body{
+    color: #888888;
+    font-family: 'Bree Serif',serif;
+    font-size: 16px;
+    min-height: 2000px;
+}
+.tweets {
+   
+    color: white;
+   
+    margin-top: 55px;
+}
+    a{
+text-decoration:none;
+font-size:18px;
+color:#333333;
+}
+/*a:hover{
+text-decoration:underline;
+font-size:18px;
+color:#333333;
+}*/
+#popup{
+position:absolute;
+display:hidden;
+top:160px;
+left:50%;
+width:500px;
+height:auto;
+margin-left:-250px;
+background-color:white;
+z-index:6;
+padding:20px;
+border:solid 5px #333333;
+border-radius:5px;
+}
+#popup h1{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#3F5C9A;
+border-bottom:1px #3F5C9A solid;
+margin:0;
+padding:0;
+}
+#popup h3{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#666666;
+margin:0;
+padding:5px 0;
+text-align:left;
+}
+#popup p{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#666666;
+margin:0;
+padding:5px;
+text-align:justify;
+}
+/*#popup a{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#666666;
+margin:0;
+padding:5px;
+text-align:right;
+float:right;
+}*/
+#overlay-back {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #204f2e;
+opacity: 0.6;
+filter: alpha(opacity=60);
+z-index: 5;
+display: none
+}
+.close-image{
+display: block;
+float:right;
+position:relative;
+top:-15px;
+right: -15px;
+height: 20px;
+background:black;
+padding:2px;
+}
+
+
+
+.login_modal_header .modal-title
+ {text-align: center;font-family:'Philosopher',sans-serif;
+  background:#333333;
+}
+.form-group{position: relative;}
+.form-group .login-field-icon {
+    font-size: 20px;
+    position: absolute;
+    right:15px;
+    top: 3px;
+    transition: all 0.25s ease 0s;
+    padding-top: 2%;
+}
+.login-modal{
+    width:100%;
+    padding-bottom:20px;
+}
+.login_modal_header, .login_modal_footer {background: #333333 !important;color:#fff;}
+.modal-register-btn{margin-top:20px; width:100%; text-align:center;}
+.login-modal input{height:40px; box-shadow: none; border:1px solid #ddd;}
+.modal-body-left{float:left; width:50%; padding-right:4%; border-right:4px solid #ddd;}
+.modal-body-right{float:right; width:47%;}
+.login-link{padding:0 20%;}
+.modal-social-icons{padding:0 10%;}
+.facebook, .twitter, .google, .linkedin {width:100%;height:40px; padding-top:2%; margin-top:2%;}
+.facebook, .twitter, .google, .linkedin, a {font-size:12px;}
+.modal-icons{margin-left: -10px; margin-right: 20px;}
+.google, .google:hover{background-color:#dd4b39;border:2px solid #dd4b39;color:#fff;}
+.twitter, .twitter:hover{ background-color: #00aced; border:2px solid #00aced;color: #fff; }
+.facebook, .facebook:hover{background-color: #3b5999; border:2px solid #3b5999;color:#fff;}
+.linkedin, .linkedin:hover{background-color: #007bb6; border: 2px solid #007bb6; color:#fff;}
+#social-icons-conatainer{position: relative;}
+#center-line{position: absolute;  right: 193px;top: 80px;background:#ddd;  border: 4px solid #DDDDDD;border-radius: 20px;}
+.modal-login-btn{width:100%;height:40px; margin-bottom:10px; background:red;}
+#modal-launcher{margin: 30% 0 0 30%; }
+h1{border-bottom:5px solid #00BB64;}
+
+

@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Bootstrap_Libraries.Models.Players>
+@{
+    ViewBag.Title = "PlyaersList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>PlyaersList</h2>
+
+
+@foreach(var item in Model)
+{
+
+    <h4> @item.Name</h4>
+    <h4> @item.Age</h4>
+    <h4> @item.Country</h4>
+    <hr/>
+}
+

@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap-Libraries", "Bootstrap-Libraries\Bootstrap-Libraries.csproj", "{2526318F-546E-42A3-B0E2-28A5EA81D2EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Model", "Project.Model\Project.Model.csproj", "{EF483E7F-D7C6-4BA4-81AC-2B68EFA0BAF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.DataLayer", "Project.DataLayer\Project.DataLayer.csproj", "{9BD027C4-9DA3-41B6-8A84-89D0415A6F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.ServiceLayer", "Project.ServiceLayer\Project.ServiceLayer.csproj", "{BCBDE33E-5C42-4A04-8C61-36EC9234EEDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2526318F-546E-42A3-B0E2-28A5EA81D2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2526318F-546E-42A3-B0E2-28A5EA81D2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2526318F-546E-42A3-B0E2-28A5EA81D2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2526318F-546E-42A3-B0E2-28A5EA81D2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF483E7F-D7C6-4BA4-81AC-2B68EFA0BAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF483E7F-D7C6-4BA4-81AC-2B68EFA0BAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF483E7F-D7C6-4BA4-81AC-2B68EFA0BAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF483E7F-D7C6-4BA4-81AC-2B68EFA0BAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD027C4-9DA3-41B6-8A84-89D0415A6F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD027C4-9DA3-41B6-8A84-89D0415A6F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD027C4-9DA3-41B6-8A84-89D0415A6F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD027C4-9DA3-41B6-8A84-89D0415A6F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBDE33E-5C42-4A04-8C61-36EC9234EEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBDE33E-5C42-4A04-8C61-36EC9234EEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBDE33E-5C42-4A04-8C61-36EC9234EEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBDE33E-5C42-4A04-8C61-36EC9234EEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+C:\Users\FAST\Downloads\bootstrap-business-application-template-mvc(1)\2-bootstrap-business-application-template-mvc-m2-exercise-files\Samples-MVC\ChartLibrary\bin\Debug\ChartLibrary.dll
+C:\Users\FAST\Downloads\bootstrap-business-application-template-mvc(1)\2-bootstrap-business-application-template-mvc-m2-exercise-files\Samples-MVC\ChartLibrary\bin\Debug\ChartLibrary.pdb
+C:\Users\FAST\Downloads\bootstrap-business-application-template-mvc(1)\2-bootstrap-business-application-template-mvc-m2-exercise-files\Samples-MVC\ChartLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\FAST\Downloads\bootstrap-business-application-template-mvc(1)\2-bootstrap-business-application-template-mvc-m2-exercise-files\Samples-MVC\ChartLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\FAST\Downloads\bootstrap-business-application-template-mvc(1)\2-bootstrap-business-application-template-mvc-m2-exercise-files\Samples-MVC\ChartLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\FAST\Downloads\bootstrap-business-application-template-mvc(1)\2-bootstrap-business-application-template-mvc-m2-exercise-files\Samples-MVC\ChartLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\FAST\Downloads\bootstrap-business-application-template-mvc(1)\2-bootstrap-business-application-template-mvc-m2-exercise-files\Samples-MVC\ChartLibrary\obj\Debug\ChartLibrary.csprojResolveAssemblyReference.cache
+C:\Users\FAST\Downloads\bootstrap-business-application-template-mvc(1)\2-bootstrap-business-application-template-mvc-m2-exercise-files\Samples-MVC\ChartLibrary\obj\Debug\ChartLibrary.dll
+C:\Users\FAST\Downloads\bootstrap-business-application-template-mvc(1)\2-bootstrap-business-application-template-mvc-m2-exercise-files\Samples-MVC\ChartLibrary\obj\Debug\ChartLibrary.pdb
