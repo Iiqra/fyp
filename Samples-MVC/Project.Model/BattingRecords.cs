@@ -20,5 +20,6 @@ namespace Project.Model
         public int Balls { get; set; }
         public decimal Average { get; set; }
         public decimal RPO { get; set; }
+        public string Ground_Id { get; set; }
     }
 }
