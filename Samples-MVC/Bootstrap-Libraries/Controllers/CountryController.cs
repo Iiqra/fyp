@@ -15,10 +15,10 @@ namespace Bootstrap_Libraries.Controllers
         {
 
         }
-        //public CountryController(IBattingRecordsService battingRecordsService)
-        //{
-        //    this.battingRecordsService = battingRecordsService;
-        //}
+        public CountryController(IBattingRecordsService battingRecordsService)
+        {
+            this.battingRecordsService = battingRecordsService;
+        }
         [HttpGet]
         public IHttpActionResult GetCountries()
         {

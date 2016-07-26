@@ -158,7 +158,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Components\UserData.cs" />
+    <Compile Include="Controllers\api\GroundsWiseRecordsController.cs" />
     <Compile Include="Controllers\CountryController.cs" />
+    <Compile Include="Controllers\GroundsController.cs" />
     <Compile Include="Controllers\InputMaskSamplesController.cs" />
     <Compile Include="Controllers\BootswatchSamplesController.cs" />
     <Compile Include="Controllers\DateRangeSamplesController.cs" />
@@ -258,6 +260,8 @@
     <Content Include="Views\Home\Stats.cshtml" />
     <Content Include="Views\Home\Analysis.cshtml" />
     <Content Include="Views\Home\PlyaersList.cshtml" />
+    <Content Include="Views\Grounds\Index.cshtml" />
+    <Content Include="Views\Home\QueryPanel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

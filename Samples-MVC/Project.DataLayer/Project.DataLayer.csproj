@@ -68,9 +68,12 @@
     <Compile Include="Repositories\BattingRecords\BattingRecordsRepository.cs" />
     <Compile Include="Repositories\BattingRecords\IBattingRecordsRepository.cs" />
     <Compile Include="Repositories\BowlingRecords\BowlingRecordsrepository.cs" />
-    <Compile Include="Repositories\BowlingRecords\IBowlingRecordsRepository.cs" />
     <Compile Include="Repositories\DataTableExtention.cs" />
+    <Compile Include="Repositories\GroundWiseRecords\GroundsWiseRecordsRepository.cs" />
+    <Compile Include="Repositories\BowlingRecords\IBowlingRecordsRepository.cs" />
+    <Compile Include="Repositories\QueryPanel\IQueryPanelRepository.cs" />
     <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\QueryPanel\QueryPanelrepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Project.Model\Project.Model.csproj">

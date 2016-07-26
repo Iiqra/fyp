@@ -9,9 +9,10 @@ E:\Ayesha\Samples-MVC\Project.Model\bin\Debug\Project.Model.dll
 E:\Ayesha\Samples-MVC\Project.Model\bin\Debug\Project.Model.pdb
 E:\Ayesha\Samples-MVC\Project.Model\obj\Debug\Project.Model.dll
 E:\Ayesha\Samples-MVC\Project.Model\obj\Debug\Project.Model.pdb
-D:\updatd iqqu proj\Samples-MVC\Project.Model\bin\Debug\Project.Model.dll.config
-D:\updatd iqqu proj\Samples-MVC\Project.Model\bin\Debug\Project.Model.dll
-D:\updatd iqqu proj\Samples-MVC\Project.Model\bin\Debug\Project.Model.pdb
-D:\updatd iqqu proj\Samples-MVC\Project.Model\obj\Debug\Project.Model.csprojResolveAssemblyReference.cache
-D:\updatd iqqu proj\Samples-MVC\Project.Model\obj\Debug\Project.Model.dll
-D:\updatd iqqu proj\Samples-MVC\Project.Model\obj\Debug\Project.Model.pdb
+E:\Ayesha\Samples-MVC\Project.Model\obj\Debug\Project.Model.csprojResolveAssemblyReference.cache
+D:\Mehtab\FYP\GitHub\fyp\Samples-MVC\Project.Model\bin\Debug\Project.Model.dll.config
+D:\Mehtab\FYP\GitHub\fyp\Samples-MVC\Project.Model\bin\Debug\Project.Model.dll
+D:\Mehtab\FYP\GitHub\fyp\Samples-MVC\Project.Model\bin\Debug\Project.Model.pdb
+D:\Mehtab\FYP\GitHub\fyp\Samples-MVC\Project.Model\obj\Debug\Project.Model.csprojResolveAssemblyReference.cache
+D:\Mehtab\FYP\GitHub\fyp\Samples-MVC\Project.Model\obj\Debug\Project.Model.dll
+D:\Mehtab\FYP\GitHub\fyp\Samples-MVC\Project.Model\obj\Debug\Project.Model.pdb

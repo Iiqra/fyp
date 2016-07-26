@@ -18,10 +18,10 @@ namespace Project.DataLayer.Repositories
 
         }
 
-        //public BattingRecordsRepository(IPlayerDb database)
-        //{
-        //    this.database = database;
-        //}
+        public BattingRecordsRepository(IPlayerDb database)
+        {
+            this.database = database;
+        }
 
         public IEnumerable<BattingRecords> List
         {

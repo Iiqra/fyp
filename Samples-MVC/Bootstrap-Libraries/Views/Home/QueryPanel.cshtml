@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "QueryPanel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<form action="/Home/CategoryChosen" method="get">
+
+
+    <h2>QueryPanel</h2>
+
+    Test:<input checked="checked"
+                id="Format"
+                name="Format"
+                type="radio"
+                value="Test" />
+
+    ODI:<input id="Format"
+               name="Format"
+               type="radio"
+               value="ODI" />
+    T20:<input id="Format"
+               name="Format"
+               type="radio"
+               value="T20" />
+
+    <hr/>
+    <fieldset>
+        Select Team <select id="HomeTeam" name="Team">
+
+            <option value=""></option>
+
+            <option value="0">Australia</option>
+
+            <option value="1">Bangladesh</option>
+
+            <option value="2">England</option>
+
+            <option value="3">Bangladesh</option>
+        </select>
+
+
+        Opposite Team <select id="HomeTeam" name="Team">
+
+            <option value=""></option>
+
+            <option value="0">Australia</option>
+
+            <option value="1">Bangladesh</option>
+
+            <option value="2">England</option>
+
+            <option value="3">Bangladesh</option>
+            <option value="4">All</option>
+
+        </select>
+        <hr />
+      
+
+   
+     </fieldset>
+    Home or Away:
+    Home:<input checked="checked"
+                id="pitch"
+                name="pitch"
+                type="radio"
+                value="Home" />
+
+    Away:<input id="pitch"
+               name="pitch"
+               type="radio"
+               value="Away" />
+    Neutral:<input id="pitch"
+               name="pitch"
+               type="radio"
+               value="Neutral" />
+    All:<input id="Pitch"
+                   name="pitch"
+                   type="radio"
+                   value="All" />
+
+    <hr />
+    Match Results:
+    Won:<input checked="checked"
+                id="result"
+                name="result"
+                type="checkbox"
+                value="Won" />
+
+    Lost:<input id="result"
+                name="result"
+                type="checkbox"
+                value="lost" />
+    Tied:<input id="result"
+                   name="result"
+                   type="checkbox"
+                   value="Tied" />
+    Drawn:<input id="result"
+               name="result"
+               type="checkbox"
+               value="Drawn" />
+
+
+    <hr />
+
+    <input type="button" name="submit" value="submit" />
+
+
+
+
+
+</form>

@@ -20,7 +20,7 @@ namespace Bootstrap_Libraries.Controllers
         {
             return View();
         }
-        public ActionResult Analysis ()
+        public ActionResult QueryPanel ()
         {
             return View();
         }

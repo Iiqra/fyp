@@ -60,8 +60,11 @@
     <Compile Include="BattingRecords\BattingRecordsService.cs" />
     <Compile Include="BattingRecords\IBattingRecordsService.cs" />
     <Compile Include="BowlingRecords\BowlingRecordsService.cs" />
+    <Compile Include="GroundWiseRecords\GroundsWiseRecordsService.cs" />
     <Compile Include="BowlingRecords\IBowlingRecordsService.cs" />
+    <Compile Include="QueryPanel\IQuertPanelService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryPanel\QueryPanelService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

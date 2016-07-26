@@ -8,11 +8,11 @@ using Bootstrap_Libraries.Models;
 
 namespace Project.DataLayer.Repositories
 {
-    public class BowlingRecordsrepository : IBowlingRecordsRepository
+    public class QueryPanelrepository : IQueryPanelRepository
     {
 
         private IPlayerDb _database;
-        public IEnumerable<BowlingRecords> List
+        public IEnumerable<QueryPanel> List
         {
             get
             {
@@ -20,7 +20,7 @@ namespace Project.DataLayer.Repositories
             }
         }
 
-        public int Create(BowlingRecords entity)
+        public int Create(QueryPanel entity)
         {
             throw new NotImplementedException();
         }
@@ -30,28 +30,28 @@ namespace Project.DataLayer.Repositories
             throw new NotImplementedException();
         }
 
-        public BowlingRecords FindById(int Id)
+        public QueryPanel FindById(int Id)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<BowlingRecords> GetAllBattingRecords()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<BowlingRecords> GetAllBowlingRecords()
+        public IEnumerable<QueryPanel> GetAllRecords()
         {
             this._database = new PlayerDb();
-            return _database.GetAll("GetAllBattingRecords").ToList<BowlingRecords>();
+            return _database.GetAll("getBattingPlayersOA").ToList<QueryPanel>();
         }
 
-        public BowlingRecords GetBowlingRecordByCountry(string country)
+        public BowlingRecords GetRecordsById(int Id)
         {
             throw new NotImplementedException();
         }
 
-        public int Update(BowlingRecords entity)
+        public int Update(QueryPanel entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        QueryPanel IQueryPanelRepository.GetRecordsById(int Id)
         {
             throw new NotImplementedException();
         }

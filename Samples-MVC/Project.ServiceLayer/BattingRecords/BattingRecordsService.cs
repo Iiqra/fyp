@@ -18,10 +18,10 @@ namespace Project.ServiceLayer
 
         }
 
-        //public BattingRecordsService(IBattingRecordsRepository battingRecordsRepository)
-        //{
-        //    this.battingRecordsRepository = battingRecordsRepository;
-        //}
+        public BattingRecordsService(IBattingRecordsRepository battingRecordsRepository)
+        {
+            this.battingRecordsRepository = battingRecordsRepository;
+        }
         public IEnumerable<BattingRecords> GetAllBattingRecords()
         {
             this.battingRecordsRepository = new BattingRecordsRepository();

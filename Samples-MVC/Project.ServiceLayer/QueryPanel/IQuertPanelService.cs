@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Project.ServiceLayer
 {
-    public interface IBattingRecordsService
+    public interface IQuertPanelService
     {
-        IEnumerable<BattingRecords> GetAllBattingRecords();
+        IEnumerable<QueryPanel> GetAllRecords();
     }
 }
+//

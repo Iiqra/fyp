@@ -110,6 +110,23 @@ namespace Bootstrap_Libraries.Models
             }
         }
 
+        public DataTable GetById(string storedProcedure, int id)
+        {
+            try
+            {
+                _command.CommandText = storedProcedure;
+                _command.Parameters.Clear();
+                _command.Parameters.AddWithValue("@id", id);
+                _datatable = new DataTable();
+                _adapter.Fill(_datatable);
+                return _datatable;
+            }
+            catch (Exception exception)
+            {
+                throw exception;
+            }
+        }
+
         public string Getsinglecolumn(String storedProcedure, int id)
         {
             try
