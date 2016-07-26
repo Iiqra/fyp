@@ -1,20 +1,23 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿
+@{
+    ViewBag.Title = "Top10NBowlers";
+    Layout = "~/Views/Shared/_AdelaideOval.cshtml";
 }
 
+<div class="container col-lg-12" style="background-color:darkblue; margin-top:20px; padding:50px;">
 
-<div id="container" style="height: 400px; min-width: 310px; max-width: 600px; margin: 0 auto">
+    <div id="container" style="height: 400px; min-width: 310px; max-width: 600px; margin: 0 auto">
 
-</div>
-<div id="info"></div>
-<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    </div>
+    <div id="info"></div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
 
-<script>
+    <script>
     $(function () {
         var chartData = [];
         $.ajax({
             type: 'GET', //  http get request , ye type controller k http decorated method s arai, should be same
-            url: 'http://localhost:12345/api/Country/GetCountries', // [7:29:38 AM] Mehtab Ali: url isliye hota hai ki server pr kaha hai data..isme hm absolute path dete hain
+            url: 'http://localhost:12345/api/AdelaideGround/GetTopBowlers', // [7:29:38 AM] Mehtab Ali: url isliye hota hai ki server pr kaha hai data..isme hm absolute path dete hain
 //: agr host ho jata ye toh hm kuch aise likhte
 //
             data: {
@@ -24,16 +27,16 @@
                 $('#info').html('<p>An error has occurred</p>');
             },
             dataType: 'json',
-            success: function (countryListdata) {
-                debugger;
-                fillChart(countryListdata);
+            success: function (CountryListdata) {
+
+                fillChart(CountryListdata);
             },
             error: function () {
                 alert('error');
             }
 
         });
-        function fillChart(countryListdata) {
+        function fillChart(CountryListdata) {
             $('#container').highcharts({
 
                 chart: {
@@ -48,7 +51,7 @@
 
                 title: {
                     //TITLE-Is the text that will be presented at the top of a chart.
-                    text: 'Top 10 BATSMAN of ICC Worldcup'
+                    text: 'Top 10 Bowlers at Adelaide Oval'
                 },
 
                 subtitle: {
@@ -80,7 +83,7 @@
                             style: {
                                 fontStyle: 'italic'
                             },
-                           
+
                         },
                         zIndex: 3
                     }]
@@ -90,7 +93,7 @@
                     startOnTick: false,
                     endOnTick: false,
                     title: {
-                        text: 'Average'
+                        text: 'Wickets'
                     },
                     labels: {
                         format: '{value}'
@@ -112,26 +115,15 @@
                         zIndex: 3
                     }]
                 },
-
-                //tooltip: {
-                //    useHTML: true,
-                //    headerFormat: '<table>',
-                //    pointFormat: '<tr><th colspan="2"><h3>{point.playerName}</h3></th></tr>' +
-                //        '<tr><th>Country Name:</th><td>{point.countryName}g</td></tr>' +
-                //        '<tr><th>Runs:</th><td>{point.runs}</td></tr>' +
-                //        '<tr><th>HighScore:</th><td>{point.HS}g</td></tr>' +
-                //        '<tr><th>Avg(runs/balls):</th><td>{point.avg}</td></tr>',
-                //    footerFormat: '</table>',
-                //    followPointer: true
-                ////},
                 tooltip: {
                     useHTML: true,
                     headerFormat: '<table>',
-                    pointFormat: '<tr><th colspan="2"><h3>{point.playerName}</h3></th></tr>' +
-                        '<tr><th>Country:</th><td>{point.countryName}</td></tr>' +
+
+                    pointFormat: '<tr><th colspan="2"><h2>{point.Name}</h2></th></tr>' +
+                        '<tr><th>Country:</th><td>{point.CountryName}</td></tr>' +
                         '<tr><th>Runs:</th><td>{point.x}</td></tr>' +
-                        '<tr><th>HighScore:</th><td>{point.z}</td></tr>' +
-                        '<tr><th>Avg(runs/balls):</th><td>{point.y}</td></tr>',
+                        '<tr><th>Wickets:</th><td>{point.y}</td></tr>' +
+                        '<tr><th>Avg(Wkts/overs):</th><td>{point.z}</td></tr>',
                     footerFormat: '</table>',
                     followPointer: true
                 },
@@ -139,13 +131,13 @@
                     series: {
                         dataLabels: {
                             enabled: true,
-                            format: '{point.country}'
+                            format: '{point.CountryInits}'
                         }
                     }
                 },
 
                 series: [{
-                    data: countryListdata
+                    data: CountryListdata
 
                 }]
 
@@ -153,6 +145,7 @@
         }
 
     });
-</script>
+    </script>
 
 
+</div>

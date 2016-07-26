@@ -158,6 +158,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Components\UserData.cs" />
+    <Compile Include="Controllers\AdelaideController.cs" />
+    <Compile Include="Controllers\AdelaideGroundController.cs" />
     <Compile Include="Controllers\api\GroundsWiseRecordsController.cs" />
     <Compile Include="Controllers\CountryController.cs" />
     <Compile Include="Controllers\GroundsController.cs" />
@@ -181,6 +183,9 @@
     <Content Include="Content\Flatly\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\images\Adel-Oval.jpg" />
+    <Content Include="Content\images\cricket-vector.jpg" />
+    <Content Include="Content\images\kholi.jpg" />
     <Content Include="Content\Login_popup\css\bootstrap.min.css" />
     <Content Include="Content\Login_popup\css\font-awesome.min.css" />
     <Content Include="Content\Login_popup\css\style.css" />
@@ -262,6 +267,10 @@
     <Content Include="Views\Home\PlyaersList.cshtml" />
     <Content Include="Views\Grounds\Index.cshtml" />
     <Content Include="Views\Home\QueryPanel.cshtml" />
+    <Content Include="Views\Shared\_AdelaideOval.cshtml" />
+    <Content Include="Views\Adelaide\Top10NBatsman.cshtml" />
+    <Content Include="Views\Adelaide\Top10NBowlers.cshtml" />
+    <Content Include="Views\Adelaide\TeamBattingWise.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -271,6 +280,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RSS Feeds\" />
+    <Folder Include="Views\AdelaideGround\" />
     <Folder Include="Views\Country\" />
   </ItemGroup>
   <ItemGroup>

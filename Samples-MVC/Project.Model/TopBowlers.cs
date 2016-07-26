@@ -10,13 +10,13 @@ namespace Project.Model
     {
         public int Id { get; set; }
         public string Name { get; set; } // player name
-        public string Country { get; set; }
-        public string CountryInits { get; set; }
-        public double Overs { get; set; }
-        public int Maidens { get; set; }
-        public int Runs { get; set; } // x
-        public int Wickets { get; set; } // y
-        public double Avg { get; set; } // z
+        public string CountryName { get; set; } // country name
+        public string CountryInits { get; set; }// countyrinits
+        public double Overs { get; set; }// 
+        public int Maidens { get; set; }//
+        public int x { get; set; } // x
+        public int y { get; set; } // y
+        public double z { get; set; } // z
         public double StrikeRate { get; set; }
         public double Economy { get; set; }
         public string Ground_Id { get; set; }

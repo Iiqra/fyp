@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.Model
 {
-  public class TopBatsmans
+  public class TopBatsman
     {
         public int Id { get; set; }
         public string Name { get; set; } //playerName

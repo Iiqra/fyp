@@ -1,0 +1,78 @@
+﻿@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Adelaide Oval-Australia</title>
+    <link href="~/Content/Flatly/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+body{
+
+    background-color:white;
+
+}
+.detail{
+
+    background-color:white;
+    color:darkblue;
+    font-family:'Bell MT';
+    padding:20px;
+    margin:30px;
+    font-size:20px;
+    font-style:oblique;
+    text-align:center;
+}
+h3{
+
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+
+}
+.wrapper{
+
+    background-color:darkblue;
+
+}
+
+
+        .image{
+      height:600px;
+      width:800px;
+      margin-left:160px;
+        }
+      
+    </style>
+</head>
+<body>
+
+
+    <div class="container-fluid col-lg-12 wrapper">
+        <h3> Adelaide Oval- Australia</h3>
+        <div class="image">
+         
+            <img src="~/Content/images/Adel-Oval.jpg" style="width:800px; height:600px;"/>
+        </div>
+
+        <div class="detail">
+
+            <p>Adelaide Oval is a stadium in Adelaide, South Australia, located in the parklands between the city centre and North Adelaide.
+
+The stadium is mostly used for cricket and Australian rules football, but also plays host to rugby league, rugby union, soccer, and concerts. Its record crowd for cricket was 52,633 during the 2014–15 Big Bash League season semi final between the Adelaide Strikers and Sydney Sixers, and its overall record attendance was 62,543 at the 1965 SANFL Grand Final between the Port Adelaide and Sturt </p>
+            <a href="https://twitter.com/TheAdelaideOval?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="active"> Adelaide Oval (@@TheAdelaideOval) | Twitter</a>
+             
+        </div>
+
+
+
+    </div>
+
+
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
