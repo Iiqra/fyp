@@ -1,0 +1,51 @@
+﻿
+
+
+
+ h3{
+
+           color:red;
+       }
+.hero-content{
+
+
+}
+.stream{
+
+       
+        height:500px;
+    }
+     .fixtures{
+
+        background-color:white;
+        height:800px;
+        margin-right:3px;
+        
+        
+    }
+      .news{
+
+        background-color:white;
+        height:800px;
+          margin-right:3px;
+    }
+       .social{
+
+        background-color:white;
+        height:800px;
+          
+    }
+
+     
+.title a{   
+
+
+    color:#3696ce;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+}
+.more a{
+    color:red;
+    
+}
+
